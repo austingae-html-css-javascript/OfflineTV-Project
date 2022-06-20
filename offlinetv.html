@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--VT323 Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    
+    <style>
+      body {
+        font-family: VT323;
+        background-color: black;
+        text-align: center;
+      }
+
+      .div {
+        display:inline-block;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        background-color: rgba(29,161,242,0.9);
+      }
+
+      .div-to-contain-profiles {
+        display:grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: auto auto auto;
+
+        column-gap: 20px;
+        row-gap: 20px;
+      }
+
+      .div-profile {
+        display:flex;
+        flex-direction: row;
+
+        justify-content: start;
+        align-items: start;
+
+        height: 100px;
+        border-style:ridge;
+        background-color: white;
+      }
+
+      .div-profile-image {
+        margin-right: 20px;
+      }
+
+      .profile-image {
+        width: 100px;
+      }
+
+      .profile-name {
+        font-size: 25px;
+        font-weight: bold;
+
+        margin-top: 0px;
+      }
+
+      .profile-career {
+        font-size: 14px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      .offline-tv-image {
+        width:300px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="div">
+      <div class="div-to-contain-profiles"> <!--Div to contain all profiles-->
+
+        <div class="div-profile"> <!--Div for profile-->
+          <div class="div-profile-image"> <!--Div to contain profile picture-->
+            <img class="profile-image" src="profile-pic/toast.jpg">
+          </div>
+  
+          <div> <!--Div to contain name and career before streaming-->
+            <p class="profile-name">Disguised Toast</p>
+            <p class="profile-career">App Developer for Mercedes Benz, the NFL, and the Royal Bank of Canada.</p>
+          </div>
+  
+        </div>
+  
+        <div class="div-profile"> <!--Div for profile-->
+          <div class="div-profile-image"> <!--Div to contain profile picture-->
+            <img class="profile-image" src="profile-pic/pokimane.jpg">
+          </div>
+  
+          <div> <!--Div to contain name and career before streaming-->
+            <p class="profile-name">Pokimane</p>
+            <p class="profile-career">Studied Chemical Engineering but then dropped out of college to pursue full-time streaming.</p>
+          </div>
+  
+        </div>
+  
+        <div class="div-profile"> <!--Div for profile-->
+          <div class="div-profile-image"> <!--Div to contain profile picture-->
+            <img class="profile-image" src="profile-pic/scarra.png">
+          </div>
+  
+          <div> <!--Div to contain name and career before streaming-->
+            <p class="profile-name">Scarra</p>
+            <p class="profile-career">Attended Texas A&M, but then dropped out to focus on his professional LoL career.</p>
+          </div>
+        </div>
+    
+        <div class="div-profile"> <!--Div for profile-->
+          <div class="div-profile-image"> <!--Div to contain profile picture-->
+            <img class="profile-image" src="profile-pic/lilypichu.png">
+          </div>
+  
+          <div> <!--Div to contain name and career before streaming-->
+            <p class="profile-name">Lily Pichu</p>
+            <p class="profile-career">A high quality musician.</p>
+          </div>
+        </div>
+  
+        <div class="div-profile"> <!--Div for profile-->
+          <div class="div-profile-image"> <!--Div to contain profile picture-->
+            <img class="profile-image" src="profile-pic/michael.png">
+          </div>
+  
+          <div> <!--Div to contain name and career before streaming-->
+            <p class="profile-name">Michael Reeves</p>
+            <p class="profile-career">Dropped out of college and had a software development career.</p>
+          </div>
+        </div>
+  
+        <div class="div-profile"> <!--Div for profile-->
+          <div class="div-profile-image"> <!--Div to contain profile picture-->
+            <img class="profile-image" src="profile-pic/john.webp">
+          </div>
+  
+          <div> <!--Div to contain name and career before streaming-->
+            <p class="profile-name">Masayoshi</p>
+            <p class="profile-career">A musician.</p>
+          </div>
+        </div>
+  
+        <div class="div-profile"> <!--Div for profile-->
+          <div class="div-profile-image"> <!--Div to contain profile picture-->
+            <img class="profile-image" src="profile-pic/jodi.webp">
+          </div>
+  
+          <div> <!--Div to contain name and career before streaming-->
+            <p class="profile-name">Jodi</p>
+            <p class="profile-career">Majored in biology.</p>
+          </div>
+        </div>
+  
+        <div class="div-profile"> <!--Div for profile-->
+          <div class="div-profile-image"> <!--Div to contain profile picture-->
+            <img class="profile-image" src="profile-pic/sydeon.jpg">
+          </div>
+  
+          <div> <!--Div to contain name and career before streaming-->
+            <p class="profile-name">Sydeon</p>
+            <p class="profile-career">Nursuing Degree.</p>
+          </div>
+        </div>
+
+        <div> <!--div for offline-tv-logo-->
+          <img class="offline-tv-image" src="profile-pic/offlinetvlogo.jpg">
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
